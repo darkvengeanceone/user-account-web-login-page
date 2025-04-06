@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%; 
+    background: linear-gradient(to right, rgb(138, 112, 161), rgb(62, 177, 192)); /* Sayfa genel arka planı */
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainbody {
+    background-color: #fff; 
+    border-radius: 30px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+    max-width: 100%;
+    min-height: 450px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.mainbody h1 {
+    position: relative;
+    bottom: 10px;
+}
+
+.mainbody p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.mainbody span {
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+}
+
+.mainbody a {
+    position: relative;
+    top: 10px;
+    color: #ff0000;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+    border: 1px solid #616060;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.mainbody button {
+    position: relative;
+    top: 55px;
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.mainbody form {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+    margin: 0;
+}
+
+.mainbody input {
+    position: relative;
+    top: 45px;
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 50%;
+    outline: none;
+}
+
