@@ -6,7 +6,7 @@
 
 html {
     height: 100%; 
-    background: linear-gradient(to right, rgb(138, 112, 161), rgb(62, 177, 192)); /* Sayfa genel arka planı */
+    background: linear-gradient(to right, rgb(138, 112, 161), rgb(62, 177, 192)); 
 }
 
 body {
